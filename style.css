@@ -1,0 +1,111 @@
+
+div.bodydiv{
+    animation: pagetransition 0.75s;
+}
+
+header{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    background-color: rgb(236, 185, 245, 0.3);
+    font-weight: bold;
+    margin: 40px;
+    padding: 100px;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(200, 143, 229);
+    border-radius: 30px;
+
+}
+
+.p1, .p2{
+    border-radius: 30px;
+}
+
+p{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: justify;
+    padding: 50px;
+    border-style: solid;
+    border-color: rgb(143, 143, 229);
+    border-width: 10px;
+}
+
+
+
+
+body {
+
+    background-image: url(background.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-color: blueviolet;
+
+
+}
+
+.bodydiv{
+    background-color: rgb(236, 185, 245, 0.3);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: rgb(200, 143, 229);
+    margin: 40px;
+    padding: 40px;
+    align-items: center;
+    border-width: 10px;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    padding-right: 50px;
+    padding-left: 50px;
+   
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgb(92, 92, 243, 0.5);
+
+}
+
+nav ul li{
+    list-style: none;
+    
+}
+
+nav ul li.line{
+    border-right: 3px solid;
+    border-color: rgb(143, 143, 229);
+    height: 50px;
+}
+
+nav{
+    background-color: rgba(151, 213, 239, 0.4);
+    margin: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(143, 143, 229);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+
+
+
+
